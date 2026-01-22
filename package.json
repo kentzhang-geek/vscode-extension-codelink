@@ -3,7 +3,7 @@
 	"displayName": "codelink",
 	"description": "use a uri to quick jump between editors and IDEs",
 	"version": "0.0.1",
-	"publisher": "Kent Zhang",
+	"publisher": "Kent",
 	"private": true,
 	"license": "MIT",
 	"repository": {
