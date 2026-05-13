@@ -49,7 +49,9 @@
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
 		"lint": "eslint",
-		"watch": "tsc -watch -p ./"
+		"watch": "tsc -watch -p ./",
+		"package:vsix": "vsce package --no-yarn",
+		"package:vsix:out": "vsce package --no-yarn --out codelink.vsix"
 	},
 	"devDependencies": {
 		"@eslint/js": "^9.13.0",
