@@ -2,7 +2,7 @@
 	"name": "codelink",
 	"displayName": "codelink",
 	"description": "use a uri to quick jump between editors and IDEs",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "Kent",
 	"private": true,
 	"license": "MIT",
@@ -32,18 +32,18 @@
 				"title": "Copy CodeLink"
 			}
 		],
-        "keybindings": [
-            {
-                "command": "codelink.open",
-                "key": "alt+g",
-                "mac": "alt+g"
-            },
-            {
-                "command": "codelink.copy",
-                "key": "alt+c",
-                "mac": "alt+c"
-            }
-        ]
+		"keybindings": [
+			{
+				"command": "codelink.open",
+				"key": "alt+g",
+				"mac": "alt+g"
+			},
+			{
+				"command": "codelink.copy",
+				"key": "alt+c",
+				"mac": "alt+c"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
