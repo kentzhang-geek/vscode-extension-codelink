@@ -14,7 +14,7 @@ export async function copyCodeLink() {
     if (!editor) {
         return;
     }
-    const filepath = editor.document.fileName;
+    const filepath = editor.document.fileName.replace(/\\/g, '/');
     const linenum = editor.selection.active.line + 1;
     const link = `codelink://${filepath}:${linenum}`;
 
